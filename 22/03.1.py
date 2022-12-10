@@ -10,7 +10,7 @@ def score(thing: str) -> int:
 
 total = 0
 
-with open(Path(__file__).parent/"3.txt") as f:
+with open(Path(__file__).parent/"03.txt") as f:
     for line in f:
         line = line.strip()
         if not line:

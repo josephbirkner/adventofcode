@@ -27,7 +27,7 @@ def translate(pattern, wire_combination):
 
 
 result = 0
-with open("8.data") as f:
+with open("08.data") as f:
     for line in f:
         lhs, rhs = line.strip().split(" | ")
         patterns = lhs.split(" ")

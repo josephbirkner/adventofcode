@@ -1,5 +1,5 @@
 result = 0
-with open("1.data", 'r') as f:
+with open("01.data", 'r') as f:
     window = []
     prev_sum = None
     for line in f:

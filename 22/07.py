@@ -34,7 +34,7 @@ class FileSystemNode:
 
 # Gather commands and their output
 cmd_and_output: List[Tuple[str, List[str]]] = []
-with open(Path(__file__).parent/"7.txt") as f:
+with open(Path(__file__).parent/"07.txt") as f:
     for line in f:
         line = line.strip()
         if line.startswith("$ "):

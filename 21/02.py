@@ -1,7 +1,7 @@
 x = 0
 y = 0
 aim = 0
-with open("2.data", 'r') as f:
+with open("02.data", 'r') as f:
     for command_and_arg in f:
         command, arg = command_and_arg.strip().split(" ")
         arg_n = int(arg)

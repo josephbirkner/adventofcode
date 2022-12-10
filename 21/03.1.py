@@ -2,7 +2,7 @@ gamma = 0
 epsilon = 0
 lines = []
 
-with open("3.data", 'r') as f:
+with open("03.data", 'r') as f:
     for line in f:
         l = line.strip()
         if l:

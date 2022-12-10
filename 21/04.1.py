@@ -1,6 +1,6 @@
 import re
 
-with open("4.data") as f:
+with open("04.data") as f:
     lines = f.readlines()
     numbers = list(map(int, lines[0].split(",")))
     lines = lines[2:]

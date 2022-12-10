@@ -6,7 +6,7 @@ stacks_parsed = False
 movement_instrs = []
 
 
-with open(Path(__file__).parent/"5.txt") as f:
+with open(Path(__file__).parent/"05.txt") as f:
     for line in f:
         line = line.rstrip()
 

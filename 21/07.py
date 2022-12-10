@@ -1,4 +1,4 @@
-with open("7.data") as f:
+with open("07.data") as f:
     crabs = list(map(int, f.read().split(",")))
 
 max_pos = max(crabs)

@@ -13,7 +13,7 @@ def range_overlap(r1s, r1e, r2s, r2e):
 ranges_within = 0
 ranges_overlap = 0
 
-with open(Path(__file__).parent/"4.txt") as f:
+with open(Path(__file__).parent/"04.txt") as f:
     for line in f:
         line = line.strip()
         r1, r2 = map(lambda rr: (int(rr[0]), int(rr[1])), map(lambda rs: rs.split("-"), line.split(",")))

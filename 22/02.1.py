@@ -21,7 +21,7 @@ translation = {
 
 points = 0
 
-with open(Path(__file__).parent/"2.txt") as f:
+with open(Path(__file__).parent/"02.txt") as f:
     for line in f:
         prompt, response = map(lambda s: translation[s], line.strip().split(" "))
         won = (response, prompt) in winning

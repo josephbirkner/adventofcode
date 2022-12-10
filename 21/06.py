@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 fish = [0]*9
-with open("6.data") as f:
+with open("06.data") as f:
     for age in map(int, f.read().split(",")):
         fish[age] += 1
 

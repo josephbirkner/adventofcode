@@ -1,7 +1,7 @@
 from typing import List, Tuple, Set, Iterator
 
 grid = []
-with open("9.data") as f:
+with open("09.data") as f:
     for line in f:
         grid.append(list(map(int, line.strip())))
 threats = 0

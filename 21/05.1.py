@@ -51,7 +51,7 @@ class Volcano:
 # parse volcanoes
 volcanoes: List[Volcano] = []
 volcanoes_ignored = []
-with open("5.data") as f:
+with open("05.data") as f:
     for line in f:
         line = line.strip()
         if line:

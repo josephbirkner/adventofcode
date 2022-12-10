@@ -3,7 +3,7 @@ import numpy as np
 
 forest = []
 
-with open(Path(__file__).parent/"8.txt") as f:
+with open(Path(__file__).parent/"08.txt") as f:
     for line in f:
         forest.append(list(map(int, line.strip())))
 

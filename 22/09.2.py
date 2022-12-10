@@ -14,7 +14,7 @@ instr_map = {
 visited_positions = set()
 visited_positions.add((0, 0))
 
-with open(Path(__file__).parent/"9.txt") as f:
+with open(Path(__file__).parent/"09.txt") as f:
     for line in f:
         line = line.strip()
         direction = instr_map[line[0]]

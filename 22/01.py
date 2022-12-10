@@ -1,7 +1,7 @@
 from pathlib import Path
 
 calory_bags = [[]]
-with open(Path(__file__).parent/"1.txt") as f:
+with open(Path(__file__).parent/"01.txt") as f:
     for cals in f:
         cals = cals.strip()
         if not cals:
